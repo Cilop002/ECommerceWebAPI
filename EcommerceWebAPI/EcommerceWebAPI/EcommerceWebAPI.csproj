@@ -194,6 +194,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\EcommerceWebAPIContext.cs" />
+    <Compile Include="Models\Maps\CategoryMap.cs" />
+    <Compile Include="Models\Maps\CustomersMap.cs" />
+    <Compile Include="Models\Tables\Category.cs" />
+    <Compile Include="Models\Tables\Customers.cs" />
+    <Compile Include="Models\Tables\Orders.cs" />
+    <Compile Include="Models\Tables\Payment.cs" />
+    <Compile Include="Models\Tables\Shippers.cs" />
+    <Compile Include="Models\Tables\Suppliers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
